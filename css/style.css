@@ -22,6 +22,7 @@ body {
   background-color: purple;
   border-radius: 16px;
   padding: 20px;
+  color: #fff;
 }
 
 .search-box {
@@ -79,4 +80,18 @@ body {
 }
 .weather-box img {
   width: 60%;
+}
+
+.weather-box .temperature {
+  position: relative;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 20px 0 6px -30px;
+}
+
+.weather-box .temperature span {
+  position: absolute;
+  font-size: 24px;
+  margin-left: 4px;
 }
