@@ -14,3 +14,12 @@ body {
   min-height: 100vh;
   background-color: seagreen;
 }
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 555px;
+  background-color: purple;
+  border-radius: 16px;
+  padding: 20px;
+}
