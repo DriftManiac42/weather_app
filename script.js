@@ -83,9 +83,11 @@
 // });
 
 const searchInput = document.querySelector(".search-box input");
-searchInput.addEventListener("click", searchWeather);
-searchInput.addEventListener("keypress", (event) => {
+const searchButton = document.querySelector(".search-box button");
+searchButton.addEventListener("click", searchWeather);
+searchInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
+    event.preventDefault();
     searchWeather();
   }
 });
